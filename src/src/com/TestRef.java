@@ -31,8 +31,8 @@ public class TestRef {
 				String value = it.next();
 				String actValue = map.get(value);
 				System.out.println("value "+value+" vl"+actValue);
-				Map.Entry<String, String>  entry = it.ne
-				System.out.println(it.);
+				//Map.Entry<String, String>  entry = it.;
+				System.out.println(it.next());
 				//map.remove(actValue);
 				it.remove();
 			}
